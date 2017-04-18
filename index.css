@@ -1,13 +1,9 @@
+/*共通デザイン*/
 body{
     margin: 0 auto;
     text-align: center;
     background-image: url(http://music-newsnetwork.com/wp-content/uploads/2015/07/15.jpg);
     background-attachment: fixed;
-}
-
-header{
-    height: 50px;
-    background-color: #2f2f2f;
 }
 
 h1{
@@ -17,50 +13,49 @@ h1{
     display: inline-block;
 }
 
-.box-0{
+/*ヘッダー*/
+header{
+    height: 50px;
+    width: 100%;
+    background-color: #101010;
+    position: fixed;
+}
+
+header h1{
+    border: none;
+    color: #fff;
+    margin-top: 0px;
+}
+
+/*メイン*/
+.box-image{
     height: 500px;
     padding: 100px;
 }
 
-.box-0 h1{
-    margin-top: 50px;
+.box-image h1{
+    margin-top: 80px;
     font-size: 70px;
     font-family: serif;
     color: #ffffff;
     border-bottom: none;
 }
 
-.box-1{
+.box-white {
     padding: 100px;
     background-color: #fff;
 }
 
-.box-2{
+.box-black {
     padding: 100px;
-    margin-top: -40px;
-    background-color: #101010;
-    color: #fff;
-}
-
-.box-3{
-    padding: 100px;
-    margin-top: -40px;
-    background-color: #fff;
-}
-
-.box-4{
-    padding: 100px;
-    margin-top: -40px;
     background-color: #101010;
     color: #fff;  
 }
 
-.box-5{
-    height: 200px;
-}
-
-.box-6{
-    margin-top: -16px;
+/*フッター*/
+footer{
+    margin-top: 160px;
+    margin-bottom: 0px;
     background-color: #fff;
-    padding: 10px;
+    padding-bottom: 10px;
 }
